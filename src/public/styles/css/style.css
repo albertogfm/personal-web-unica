@@ -10,15 +10,23 @@ header {
   background-color: #9ff091;
   font-size: 30px;
   width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 header nav {
   background: #9ff091;
   z-index: 1000;
   max-width: 1000px;
-  width: 100%;
+  width: 90%;
   margin: 20px auto;
   align-items: inherit;
+}
+
+header nav ul {
+  display: flex;
+  margin: auto;
+  padding-left: 0px;
+  align-content: inherit;
 }
 
 header nav ul li {
@@ -52,52 +60,69 @@ header nav ul li a span {
   align-content: center;
 }
 
-* {
-  padding: 0;
-  margin: 0;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
 body {
   background: #3691d6;
 }
 
-.footer {
-  margin-top: 20px;
-  padding-top: 20px;
-  position: inherit;
-  bottom: 0;
-  width: 100%;
-  height: 80px;
+footer {
   background-color: #9ff091;
+  font-size: 25px;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.footer div {
+footer nav {
+  background: #9ff091;
+  max-width: 1000px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: auto;
+}
+
+footer nav ul {
   display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  margin-bottom: 10px;
+  margin: auto;
+  padding-left: 0px;
+  align-content: inherit;
 }
 
-.footer div a {
-  text-decoration: none;
+footer nav ul li {
+  display: inline-block;
+  position: relative;
+  width: 80%;
+  align-content: center;
+}
+
+footer nav ul li:hover {
+  background: #E6344A;
+  color: wheat;
+}
+
+footer nav ul li a {
   color: #af4626;
-}
-
-.footer div P {
+  display: block;
   text-decoration: none;
+  padding: 10px;
+  align-self: center;
+}
+
+footer nav ul li a:hover {
   color: white;
+  display: block;
+  text-decoration: none;
+  align-self: center;
 }
 
-.console {
-  margin-top: 3%;
+footer nav ul li a span {
+  margin-right: 10px;
+  margin-top: 0px;
+  align-content: center;
 }
 
-.elements1 div {
-  padding-right: 3%;
-  width: 50%;
+footer h1 {
+  text-align: center;
+  padding-top: 10px;
 }
 
 span.home_icon {
@@ -124,6 +149,38 @@ span.projects_icon {
   display: inline-block;
 }
 
+span.github_icon {
+  background: url(../../assets/icons/github.png);
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+}
+
+span.fb_icon {
+  background: url(../../assets/icons/facebook.png);
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+}
+
+span.twitter_icon {
+  background: url(../../assets/icons/twitter.png);
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+}
+
+span.insta_icon {
+  background: url(../../assets/icons/IN.png);
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+}
+
 #error-photo {
   background: url("../../assets/images/erorr.png");
   background-size: 300px 300px;
@@ -135,7 +192,6 @@ span.projects_icon {
 
 .principal_info {
   background-color: #711f92;
-  width: 80%;
   margin-left: 10%;
   margin-right: 10%;
   font-family: "Inter";
@@ -144,10 +200,15 @@ span.projects_icon {
 
 .principal_info div {
   border: 3px #ccc solid;
+  padding: 10px;
 }
 
 .princi_box2 .nombre {
   color: rebeccapurple;
+  background-color: rosybrown;
+  margin-left: 6%;
+  margin-right: 6%;
+  margin-bottom: 2%;
 }
 
 .princi_box1 {

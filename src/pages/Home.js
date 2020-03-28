@@ -15,11 +15,12 @@ const Home = () => {
                     <li>Correo: albertogarciafigueroam@gmail.com</li>
                     <li>Celular: (999)421389</li>
                     <li>Dirección: Escuela Naval Militae #46 Col. Paseos de Taxqueña Col.Coyoacán Ciudad de México</li>
-                    
+                    <li>Estado Civil: Soltero</li>
                 </ul>
             </div>
            
         </div>
+
         <div class="principal_info">
         <div class="princi_box1">
         <span id="alberto-photo"></span>
