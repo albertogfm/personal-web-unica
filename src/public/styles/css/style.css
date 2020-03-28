@@ -7,13 +7,13 @@
   src: url("../../assets/fonts/PT_Sans_Caption/PTSansCaption-Regular.ttf");
 }
 header {
-  background-color: #96f020;
+  background-color: #9ff091;
   font-size: 30px;
   width: 100%;
 }
 
 header nav {
-  background: #96f020;
+  background: #9ff091;
   z-index: 1000;
   max-width: 1000px;
   width: 100%;
@@ -109,7 +109,7 @@ section#container ul {
   bottom: 0;
   width: 100%;
   height: 80px;
-  background-color: #96f020;
+  background-color: #9ff091;
 }
 
 .footer div {
