@@ -7,7 +7,49 @@
   src: url("../../assets/fonts/PT_Sans_Caption/PTSansCaption-Regular.ttf");
 }
 header {
-  background-color: #023859;
+  background-color: #96f020;
+  font-size: 30px;
+  width: 100%;
+}
+
+header nav {
+  background: #96f020;
+  z-index: 1000;
+  max-width: 1000px;
+  width: 100%;
+  margin: 20px auto;
+  align-items: inherit;
+}
+
+header nav ul li {
+  display: inline-block;
+  position: relative;
+}
+
+header nav ul li:hover {
+  background: #E6344A;
+  color: wheat;
+}
+
+header nav ul li a {
+  color: #af4626;
+  display: block;
+  text-decoration: none;
+  padding: 20px;
+  align-self: center;
+}
+
+header nav ul li a:hover {
+  color: white;
+  display: block;
+  text-decoration: none;
+  align-self: center;
+}
+
+header nav ul li a span {
+  margin-right: 10px;
+  margin-top: 10px;
+  align-content: center;
 }
 
 * {
@@ -19,88 +61,11 @@ header {
 }
 
 body {
-  background: #0c1821;
-}
-
-.menu_bar {
-  display: none;
-}
-
-header {
-  width: 100%;
-}
-
-header nav {
-  background: #023859;
-  z-index: 1000;
-  max-width: 1000px;
-  width: 95%;
-  margin: 20px auto;
-}
-
-header nav ul {
-  list-style: none;
-}
-
-header nav ul li {
-  display: inline-block;
-  position: relative;
-}
-
-header nav ul li:hover {
-  background: #E6344A;
-}
-
-header nav ul li a {
-  color: #fff;
-  display: block;
-  text-decoration: none;
-  padding: 20px;
-}
-
-header nav ul li a span {
-  margin-right: 10px;
-}
-
-header nav ul li:hover .children {
-  display: block;
-}
-
-header nav ul li .children {
-  display: none;
-  background: #011826;
-  position: absolute;
-  width: 150%;
-  z-index: 1000;
-}
-
-header nav ul li .children li {
-  display: block;
-  overflow: hidden;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-}
-
-header nav ul li .children li a {
-  display: block;
-}
-
-header nav ul li .children li a span {
-  float: right;
-  position: relative;
-  top: 3px;
-  margin-right: 0;
-  margin-left: 10px;
-}
-
-header nav ul li .caret {
-  position: relative;
-  top: 3px;
-  margin-left: 10px;
-  margin-right: 0px;
+  background: #3691d6;
 }
 
 section#container {
-  background-color: #a62639;
+  background-color: #711f92;
   width: 80%;
   margin-left: 10%;
   color: white;
@@ -131,181 +96,10 @@ section#container ul {
   text-decoration: none;
 }
 
-.Title {
-  background-color: #930017;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-}
-
-.news_one-block {
-  background-color: #930017;
-  margin-top: 2%;
-  margin-left: 10%;
-  margin-right: 10%;
-  border-radius: 2%;
-}
-
-.news_one-block #tit {
-  background-color: #930017;
-  margin-top: 2%;
-  margin-left: 10%;
-  margin-right: 10%;
-  border-radius: 2%;
-}
-
-.news_one-block #nvidia-photo {
-  background: url("../../assets/images/nvidia.png");
-  background-size: cover;
-  width: 200px;
-  height: 200px;
-  display: inline-block;
-  margin-left: 40%;
-}
-
-#n-vid {
-  display: flex;
-  justify-content: center;
-}
-
-#-text {
-  display: flex;
-  justify-content: center;
-  margin: 20px;
-}
-
-.news_two-block {
-  background-color: #930017;
-  margin-top: 2%;
-  margin-left: 10%;
-  margin-right: 10%;
-  border-radius: 2%;
-}
-
-.news_two-block #halo-photo {
-  background: url("../../assets/images/halo.png");
-  background-size: 200px 200px;
-  width: 200px;
-  height: 200px;
-  display: inline-block;
-  margin-left: 40%;
-}
-
-.news_three-block {
-  background-color: #930017;
-  margin-top: 2%;
-  margin-left: 10%;
-  margin-right: 10%;
-  border-radius: 2%;
-}
-
-.news_three-block #sony-photo {
-  background: url("../../assets/images/sony.png");
-  background-size: 200px 200px;
-  width: 200px;
-  height: 200px;
-  display: inline-block;
-  margin-left: 40%;
-}
-
-.news_four-block {
-  background-color: #930017;
-  margin-top: 2%;
-  margin-left: 10%;
-  margin-right: 10%;
-  border-radius: 2%;
-}
-
-.news_four-block #cod-photo {
-  background: url("../../assets/images/cod.png");
-  background-size: 200px 200px;
-  width: 200px;
-  height: 200px;
-  display: inline-block;
-  margin-left: 40%;
-}
-
-.news_five-block {
-  background-color: #930017;
-  margin-top: 2%;
-  margin-left: 10%;
-  margin-right: 10%;
-  border-radius: 2%;
-}
-
-.news_five-block #mario-photo {
-  background: url("../../assets/images/mario.png");
-  background-size: 200px 200px;
-  width: 200px;
-  height: 200px;
-  display: inline-block;
-  margin-left: 40%;
-}
-
-.photo-block div {
-  display: flex;
-  justify-content: center;
-}
-
-#tlt {
-  color: #2797a1;
-}
-
-div #stlt {
-  color: #15c74a;
-  text-align: center;
-  margin: 10px;
-}
-
-#social-red {
-  padding: 5%;
-}
-
 .elements {
   display: flex;
   align-items: center;
   padding-left: 25%;
-}
-
-.red span.image1 {
-  background: url("../../assets/images/Fa.png") no-repeat center center;
-  background-size: cover;
-  width: 30px;
-  height: 30px;
-  display: inline-block;
-  margin-right: 40px;
-}
-
-.red span.image2 {
-  background: url("../../assets/images/GM.png") no-repeat center center;
-  background-size: cover;
-  width: 30px;
-  height: 30px;
-  display: inline-block;
-  margin-right: 40px;
-}
-
-.red span.image3 {
-  background: url("../../assets/images/IN.png") no-repeat center center;
-  background-size: cover;
-  width: 30px;
-  height: 30px;
-  display: inline-block;
-  margin-right: 40px;
-}
-
-.red span.image4 {
-  background: url("../../assets/images/G.png") no-repeat center center;
-  background-size: cover;
-  width: 30px;
-  height: 30px;
-  display: inline-block;
-  margin-right: 40px;
-}
-
-.red h6 {
-  padding: 0;
-  font-size: 15px;
 }
 
 .footer {
@@ -315,7 +109,7 @@ div #stlt {
   bottom: 0;
   width: 100%;
   height: 80px;
-  background-color: #023859;
+  background-color: #96f020;
 }
 
 .footer div {
@@ -327,12 +121,12 @@ div #stlt {
 
 .footer div a {
   text-decoration: none;
-  color: #fff;
+  color: #af4626;
 }
 
 .footer div P {
   text-decoration: none;
-  color: #fff;
+  color: white;
 }
 
 .console {
@@ -344,44 +138,28 @@ div #stlt {
   width: 50%;
 }
 
-span.image1 {
-  background: url("../../assets/images/N64.jpg");
+span.home_icon {
+  background: url(../../assets/icons/curriculum.png) no-repeat center center;
   background-size: cover;
-  width: 200px;
-  height: 200px;
+  width: 50px;
+  height: 50px;
   display: inline-block;
-  margin: 0.5%;
-  margin-right: 15px;
 }
 
-span.image2 {
-  background: url("../../assets/images/X360.jpg");
+span.study_icon {
+  background: url(../../assets/icons/education.png) no-repeat center center;
   background-size: cover;
-  width: 200px;
-  height: 200px;
+  width: 50px;
+  height: 50px;
   display: inline-block;
-  margin: 0.5%;
-  margin-right: 15px;
 }
 
-.elements1 .image3 {
-  background: url("../../assets/images/Wii.jpeg");
+span.projects_icon {
+  background: url(../../assets/icons/projects.png) no-repeat center center;
   background-size: cover;
-  width: 200px;
-  height: 200px;
+  width: 50px;
+  height: 50px;
   display: inline-block;
-  margin: 0.5%;
-  margin-right: 15px;
-}
-
-span.image4 {
-  background: url("../../assets/images/GBC.jpg");
-  background-size: cover;
-  width: 200px;
-  height: 200px;
-  display: inline-block;
-  margin: 0.5%;
-  margin-right: 15px;
 }
 
 @media screen and (max-width: 800px) {
@@ -448,7 +226,7 @@ span.image4 {
   }
 
   section#container {
-    background-color: #a62639;
+    background-color: #711f92;
     width: 80%;
     margin-left: 10%;
     color: white;
@@ -539,84 +317,6 @@ span.image4 {
     width: 50%;
     text-align: justify;
   }
-
-  span.image1 {
-    background: url("../../assets/images/N64.jpg");
-    background-size: cover;
-    width: 200px;
-    height: 200px;
-    display: inline-block;
-    margin: 0.5%;
-    margin-right: 15px;
-  }
-
-  span.image2 {
-    background: url("../../assets/images/X360.jpg");
-    background-size: cover;
-    width: 200px;
-    height: 200px;
-    display: inline-block;
-    margin: 0.5%;
-    margin-right: 15px;
-  }
-
-  .elements .image3 {
-    background: url("../../assets/images/Wii.jpeg");
-    background-size: cover;
-    width: 200px;
-    height: 200px;
-    display: inline-block;
-    margin: 0.5%;
-    margin-right: 15px;
-  }
-
-  span.image4 {
-    background: url("../../assets/images/GBC.jpg");
-    background-size: cover;
-    width: 200px;
-    height: 200px;
-    display: inline-block;
-    margin: 0.5%;
-    margin-right: 15px;
-  }
-}
-span.menu_icon {
-  background: url(../../assets/icons/bar-menu.png) no-repeat center center;
-  background-size: cover;
-  width: 30px;
-  height: 30px;
-}
-
-span.top_icon {
-  background: url(../../assets/icons/top-tres.png) no-repeat center center;
-  background-size: cover;
-  width: 15px;
-  height: 15px;
-  display: inline-block;
-}
-
-span.news_icon {
-  background: url(../../assets/icons/news.png) no-repeat center center;
-  background-size: cover;
-  width: 15px;
-  height: 15px;
-  display: inline-block;
-}
-
-span.console_icon {
-  background: url(../../assets/icons/consola-de-video.png) no-repeat center center;
-  background-size: cover;
-  width: 15px;
-  height: 15px;
-  display: inline-block;
-}
-
-span.home_icon {
-  background: url(../../assets/icons/home.png) no-repeat center center;
-  background-size: cover;
-  width: 15px;
-  height: 15px;
-  display: inline-block;
 }
 
 /*# sourceMappingURL=style.css.map */
