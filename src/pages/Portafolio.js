@@ -30,7 +30,7 @@ const Portafilio = () => {
         
         <div class="proyecto_titulo">
             <div class="princi_box2">
-                <h1 class="nombre">ANÁLISIS ESPECTRAL DE SONIDOS</h1>
+                <h1 class="nombre">PORTAFOLIO DE PROYECTOS REALIZADOS</h1>
                 <p>(CLick en las imágenes para descargar el proyecto)</p>
             </div>      
         </div>
