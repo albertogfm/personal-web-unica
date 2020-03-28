@@ -1,8 +1,11 @@
 const Error404 = () => {
     const view =
         `
-        <div><h1>Que no ves que estoy chiquito, ya di error.</h1></div>
-        
+        <div class="Title">
+            <h1>PAGE NOT FOUND</h1>
+            <span id="error-photo"></span>
+    
+         </div>        
         `;  
         return view;
 };
