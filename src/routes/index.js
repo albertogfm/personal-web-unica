@@ -3,6 +3,7 @@ import Footer from "../public/templates/Footer"
 import Home from "../pages/Home";
 import Error404 from "../pages/Error404";
 import Formacion from "../pages/Formacion";
+import Portafolio from "../pages/Portafolio";
 
 import "../public/styles/css/style.css"
 import NavCellphone from "../public/js/NavCellphone";
@@ -13,6 +14,7 @@ const routes = {
   "/": Home,
   "/formacion":Formacion,
   "/error":Error404,
+  "/portafolio":Portafolio
 };
 
 const router = async () => {

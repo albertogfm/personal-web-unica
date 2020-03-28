@@ -395,13 +395,7 @@ div .listaInfo{
 		height: 220px;
 		display: $DisplayIcon;
 	}
-	#fi-photo{
-		background: url("../../assets/images/fi.png");
-		background-size:cover ;
-		width: 400px;
-		height: 450px;
-		display: $DisplayIcon;
-	}
+	
 //primaria agora
 	.prim1_info{
 		background-color: $BackgroundPageColor;
@@ -482,14 +476,323 @@ div .listaInfo{
 	}
 
 
+//Portafolio
+.cursos_info{
+	background-color: $BackgroundPageColor;
+	margin-left: 10%;
+	margin-right: 10%;
+	font-family: "Inter";
+	display: flex;
+}
+.cursos_info div{
+	//border: 3px #ccc solid;
+	padding: 10px;
+}
+.princi_box2 .nombre{
+	color: rebeccapurple;
+	background-color: rosybrown;
+	margin-left: 6%;
+	margin-right: 6%;
+	margin-bottom: 2%;
+}
+.cursos_info .princi_box1{
+	flex: 1;
+	height: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	
+}
+.cursos_info .princi_box2{
+	margin: auto;
+	flex:2;
+	text-align: center;
+	font-size: 30px;
+}
+.cursos_info .princi_box3{
+	flex: 1;
+	height: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+#wp-photo{
+	background: url("../../assets/images/wp.png");
+	background-size: cover;
+	width: 350px;
+	height: 350px;
+	display: $DisplayIcon;
+}
+#prog-photo{
+	background: url("../../assets/images/prog.png");
+	background-size:cover ;
+	width: 350px;
+	height: 400px;	
+	display: $DisplayIcon;
+}
+//proyecto
+//
+.analisis_espectral_info{
+	background-color: $BackgroundPageColor;
+	margin-left: 10%;
+	margin-right: 10%;
+	font-family: "Inter";
+	display: flex;
+}
+.analisis_espectral_info div{
+	//border: 3px #ccc solid;
+	padding: 10px;
+}
+.princi_box2 .nombre{
+	color: rebeccapurple;
+	background-color: rosybrown;
+	margin-bottom: 2%;
+}
+.analisis_espectral_info .princi_box1{
+	flex: 1;
+	height: auto;
+	margin: 6%;
+	align-content: center;
+}
+.analisis_espectral_info .princi_box2{
+	margin: auto;
+	flex:2;
+	text-align: center;
+	font-size: 30px;
+}
+
+#sound-photo{
+	background: url("../../assets/images/sound.png");
+	background-size: cover;
+	width: 250px;
+	height: 250px;
+	display: $DisplayIcon;
+}
+
+//blog food
+.bf_info{
+	background-color: $BackgroundPageColor;
+	margin-left: 10%;
+	margin-right: 10%;
+	font-family: "Inter";
+	display: flex;
+}
+.bf_info div{
+	//border: 3px #ccc solid;
+	padding: 10px;
+}
+.princi_box2 .nombre{
+	color: rebeccapurple;
+	background-color: rosybrown;
+	margin-bottom: 2%;
+}
+.bf_info .princi_box1{
+	flex: 1;
+	height: auto;
+	margin: 6%;
+	align-content: center;
+}
+.bf_info .princi_box2{
+	margin: auto;
+	flex:2;
+	text-align: center;
+	font-size: 30px;
+}
+
+#bf-photo{
+	background: url("../../assets/images/food.png");
+	background-size: cover;
+	width: 250px;
+	height: 250px;
+	display: $DisplayIcon;
+}
+//java mp3
+.mp3_info{
+	background-color: $BackgroundPageColor;
+	margin-left: 10%;
+	margin-right: 10%;
+	font-family: "Inter";
+	display: flex;
+}
+.mp3_info div{
+	//border: 3px #ccc solid;
+	padding: 10px;
+}
+.princi_box2 .nombre{
+	color: rebeccapurple;
+	background-color: rosybrown;
+	margin-bottom: 2%;
+}
+.mp3_info .princi_box1{
+	flex: 1;
+	height: auto;
+	margin: 6%;
+	align-content: center;
+}
+.mp3_info .princi_box2{
+	margin: auto;
+	flex:2;
+	text-align: center;
+	font-size: 30px;
+}
+
+#mp3-photo{
+	background: url("../../assets/images/mp3.png");
+	background-size: cover;
+	width: 250px;
+	height: 250px;
+	display: $DisplayIcon;
+}
+
+// instagram
+.inst_info{
+	background-color: $BackgroundPageColor;
+	margin-left: 10%;
+	margin-right: 10%;
+	font-family: "Inter";
+	display: flex;
+}
+.inst_info div{
+	//border: 3px #ccc solid;
+	padding: 10px;
+}
+.princi_box2 .nombre{
+	color: rebeccapurple;
+	background-color: rosybrown;
+	margin-bottom: 2%;
+}
+.inst_info .princi_box1{
+	flex: 1;
+	height: auto;
+	margin: 6%;
+	align-content: center;
+}
+.inst_info .princi_box2{
+	margin: auto;
+	flex:2;
+	text-align: center;
+	font-size: 30px;
+}
+
+#inst-photo{
+	background: url("../../assets/images/instagram.png");
+	background-size: cover;
+	width: 250px;
+	height: 250px;
+	display: $DisplayIcon;
+}
 
 
+// bd
+.bd_info{
+	background-color: $BackgroundPageColor;
+	margin-left: 10%;
+	margin-right: 10%;
+	font-family: "Inter";
+	display: flex;
+}
+.bd_info div{
+	//border: 3px #ccc solid;
+	padding: 10px;
+}
+.princi_box2 .nombre{
+	color: rebeccapurple;
+	background-color: rosybrown;
+	margin-bottom: 2%;
+}
+.bd_info .princi_box1{
+	flex: 1;
+	height: auto;
+	margin: 6%;
+	align-content: center;
+}
+.bd_info .princi_box2{
+	margin: auto;
+	flex:2;
+	text-align: center;
+	font-size: 30px;
+}
 
+#bd-photo{
+	background: url("../../assets/images/database.png");
+	background-size: cover;
+	width: 250px;
+	height: 250px;
+	display: $DisplayIcon;
+}
 
+// store
+.store_info{
+	background-color: $BackgroundPageColor;
+	margin-left: 10%;
+	margin-right: 10%;
+	font-family: "Inter";
+	display: flex;
+}
+.store_info div{
+	//border: 3px #ccc solid;
+	padding: 10px;
+}
+.princi_box2 .nombre{
+	color: rebeccapurple;
+	background-color: rosybrown;
+	margin-bottom: 2%;
+}
+.store_info .princi_box1{
+	flex: 1;
+	height: auto;
+	margin: 6%;
+	align-content: center;
+}
+.store_info .princi_box2{
+	margin: auto;
+	flex:2;
+	text-align: center;
+	font-size: 30px;
+}
 
+#store-photo{
+	background: url("../../assets/images/store.png");
+	background-size: cover;
+	width: 250px;
+	height: 250px;
+	display: $DisplayIcon;
+}
+// vj
+.vj_info{
+	background-color: $BackgroundPageColor;
+	margin-left: 10%;
+	margin-right: 10%;
+	font-family: "Inter";
+	display: flex;
+}
+.vj_info div{
+	//border: 3px #ccc solid;
+	padding: 10px;
+}
+.princi_box2 .nombre{
+	color: rebeccapurple;
+	background-color: rosybrown;
+	margin-bottom: 2%;
+}
+.vj_info .princi_box1{
+	flex: 1;
+	height: auto;
+	margin: 6%;
+	align-content: center;
+}
+.vj_info .princi_box2{
+	margin: auto;
+	flex:2;
+	text-align: center;
+	font-size: 30px;
+}
 
-
-
+#vj-photo{
+	background: url("../../assets/images/vg.png");
+	background-size: cover;
+	width: 250px;
+	height: 250px;
+	display: $DisplayIcon;
+}
 
 
 
