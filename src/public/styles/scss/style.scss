@@ -11,6 +11,8 @@ $BackgroundPageColor: #711f92;
 $BackgroundColor: #3691d6;
 $InformationCOlor: #930017;
 $TittleColor: #930017;
+$ColorTextTitle:rebeccapurple;
+$ColorFontTitle:rosybrown;
 //Fonts
 $Inter: "../../assets/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf";
 $PtSansRegular: "../../assets/fonts/PT_Sans_Caption/PTSansCaption-Regular.ttf";
@@ -237,8 +239,8 @@ span.insta_icon{
 	padding: 10px;
 }
 .princi_box2 .nombre{
-	color: rebeccapurple;
-	background-color: rosybrown;
+	color: $ColorTextTitle;
+	background-color: $ColorFontTitle;
 	margin-left: 6%;
 	margin-right: 6%;
 	margin-bottom: 2%;
@@ -270,8 +272,8 @@ div .listaInfo{
 	padding: 10px;
 }
 .sec_box2 .nombre{
-	color: rebeccapurple;
-	background-color: rosybrown;
+	color: $ColorTextTitle;
+	background-color: $ColorFontTitle;
 	margin-left: 6%;
 	margin-right: 6%;
 	margin-bottom: 2%;
@@ -320,8 +322,8 @@ div .listaInfo{
 		padding: 10px;
 	}
 	.princi_box2 .nombre{
-		color: rebeccapurple;
-		background-color: rosybrown;
+		color: $ColorTextTitle;
+		background-color: $ColorFontTitle;
 		margin-left: 6%;
 		margin-right: 6%;
 		margin-bottom: 2%;
@@ -370,8 +372,8 @@ div .listaInfo{
 		padding: 10px;
 	}
 	.princi_box2 .nombre{
-		color: rebeccapurple;
-		background-color: rosybrown;
+		color: $ColorTextTitle;
+		background-color: $ColorFontTitle;
 		margin-left: 6%;
 		margin-right: 6%;
 		margin-bottom: 2%;
@@ -409,8 +411,8 @@ div .listaInfo{
 		padding: 10px;
 	}
 	.princi_box2 .nombre{
-		color: rebeccapurple;
-		background-color: rosybrown;
+		color: $ColorTextTitle;
+		background-color: $ColorFontTitle;
 		margin-left: 6%;
 		margin-right: 6%;
 		margin-bottom: 2%;
@@ -449,8 +451,8 @@ div .listaInfo{
 		padding: 10px;
 	}
 	.princi_box2 .nombre{
-		color: rebeccapurple;
-		background-color: rosybrown;
+		color: $ColorTextTitle;
+		background-color: $ColorFontTitle;
 		margin-left: 6%;
 		margin-right: 6%;
 		margin-bottom: 2%;
@@ -489,8 +491,8 @@ div .listaInfo{
 	padding: 10px;
 }
 .princi_box2 .nombre{
-	color: rebeccapurple;
-	background-color: rosybrown;
+	color: $ColorTextTitle;
+	background-color: $ColorFontTitle;
 	margin-left: 6%;
 	margin-right: 6%;
 	margin-bottom: 2%;
@@ -540,8 +542,8 @@ div .listaInfo{
 	display: flex;
 }
 .proyecto_titulo .princi_box2{
-	color: rebeccapurple;
-	background-color: rosybrown;
+	color: $ColorTextTitle;
+	background-color: $ColorFontTitle;
 	margin-bottom: 2%;
 
 }
@@ -564,8 +566,8 @@ div .listaInfo{
 	padding: 10px;
 }
 .princi_box2 .nombre{
-	color: rebeccapurple;
-	background-color: rosybrown;
+	color: $ColorTextTitle;
+	background-color: $ColorFontTitle;
 	margin-bottom: 2%;
 }
 .analisis_espectral_info .princi_box1{
@@ -602,8 +604,8 @@ div .listaInfo{
 	padding: 10px;
 }
 .princi_box2 .nombre{
-	color: rebeccapurple;
-	background-color: rosybrown;
+	color: $ColorTextTitle;
+	background-color: $ColorFontTitle;
 	margin-bottom: 2%;
 }
 .bf_info .princi_box1{
@@ -639,8 +641,8 @@ div .listaInfo{
 	padding: 10px;
 }
 .princi_box2 .nombre{
-	color: rebeccapurple;
-	background-color: rosybrown;
+	color: $ColorTextTitle;
+	background-color: $ColorFontTitle;
 	margin-bottom: 2%;
 }
 .mp3_info .princi_box1{
@@ -677,8 +679,8 @@ div .listaInfo{
 	padding: 10px;
 }
 .princi_box2 .nombre{
-	color: rebeccapurple;
-	background-color: rosybrown;
+	color: $ColorTextTitle;
+	background-color: $ColorFontTitle;
 	margin-bottom: 2%;
 }
 .inst_info .princi_box1{
@@ -716,8 +718,8 @@ div .listaInfo{
 	padding: 10px;
 }
 .princi_box2 .nombre{
-	color: rebeccapurple;
-	background-color: rosybrown;
+	color: $ColorTextTitle;
+	background-color: $ColorFontTitle;
 	margin-bottom: 2%;
 }
 .bd_info .princi_box1{
@@ -754,8 +756,8 @@ div .listaInfo{
 	padding: 10px;
 }
 .princi_box2 .nombre{
-	color: rebeccapurple;
-	background-color: rosybrown;
+	color: $ColorTextTitle;
+	background-color: $ColorFontTitle;
 	margin-bottom: 2%;
 }
 .store_info .princi_box1{
@@ -791,8 +793,8 @@ div .listaInfo{
 	padding: 10px;
 }
 .princi_box2 .nombre{
-	color: rebeccapurple;
-	background-color: rosybrown;
+	color: $ColorTextTitle;
+	background-color: $ColorFontTitle;
 	margin-bottom: 2%;
 }
 .vj_info .princi_box1{

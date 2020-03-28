@@ -28,7 +28,7 @@ const Home = () => {
             </div>
             
             <div class="sec_box2">
-                <h1>Descripción</h1>
+                <h1 class="nombre">Descripción</h1>
                 <p>Alberto es un estudiante de ingeniería en computación por la UNAM, el cual es un a persosa decidida a lo que hacer, obstinada pero sobre todo responsable, calificandolo como un trabajador que al no saber algo investiga y se dedica a poder entregar el mejor trabajo</p>
             </div>
        

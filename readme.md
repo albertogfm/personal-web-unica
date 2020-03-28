@@ -39,5 +39,10 @@ npm i -D file-loader
 npm i -D eslint eslint-loader standard
 ```
 
+##Commands to run web-page
+```
+npm run webpack:server
+```
 ## Description
+This is the curriculum of Alberto García, it contains personal info, education and the main projects made.
  
