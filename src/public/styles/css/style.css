@@ -514,6 +514,24 @@ div .listaInfo {
   display: inline-block;
 }
 
+.proyecto_titulo {
+  background-color: #711f92;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: "Inter";
+  display: flex;
+}
+
+.proyecto_titulo .princi_box2 {
+  color: rebeccapurple;
+  background-color: rosybrown;
+  margin-bottom: 2%;
+}
+
+.proyecto_titulo p {
+  font-size: 20px;
+}
+
 .analisis_espectral_info {
   background-color: #711f92;
   margin-left: 10%;

@@ -529,7 +529,29 @@ div .listaInfo{
 	display: $DisplayIcon;
 }
 //proyecto
-//
+
+
+//titulo_info
+.proyecto_titulo{
+	background-color: $BackgroundPageColor;
+	margin-left: 10%;
+	margin-right: 10%;
+	font-family: "Inter";
+	display: flex;
+}
+.proyecto_titulo .princi_box2{
+	color: rebeccapurple;
+	background-color: rosybrown;
+	margin-bottom: 2%;
+
+}
+.proyecto_titulo p{
+	font-size: 20px;
+	
+}
+
+
+//anaisis
 .analisis_espectral_info{
 	background-color: $BackgroundPageColor;
 	margin-left: 10%;
