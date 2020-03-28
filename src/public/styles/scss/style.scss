@@ -224,6 +224,7 @@ span.insta_icon{
 
 
 //home
+//principal info
 .principal_info{
 	background-color: $BackgroundPageColor;
 	margin-left: 10%;
@@ -232,7 +233,7 @@ span.insta_icon{
 	display: flex;
 }
 .principal_info div{
-	border: 3px #ccc solid;
+	//border: 3px #ccc solid;
 	padding: 10px;
 }
 .princi_box2 .nombre{
@@ -252,18 +253,233 @@ span.insta_icon{
 	flex:2;
 	text-align: center;
 	font-size: 30px;
-	
+}
+div .listaInfo{
+	list-style:none;
+}
+//secundary info
+.sec_info{
+	background-color: $BackgroundPageColor;
+	margin-left: 10%;
+	margin-right: 10%;
+	font-family: "Inter";
+	display: flex;
+}
+.sec_info div{
+	//border: 3px #ccc solid;
+	padding: 10px;
+}
+.sec_box2 .nombre{
+	color: rebeccapurple;
+	background-color: rosybrown;
+	margin-left: 6%;
+	margin-right: 6%;
+	margin-bottom: 2%;
 }
 
+.sec_box1{
+	flex: 1;
+	height: 600px;
+	order: 2;
+}
+.sec_box2{
+	margin: auto;
+	flex:2;
+	text-align: center;
+	font-size: 30px;
+	order: 1;
+}
 
-#alberto-photo{
+#alberto1-photo{
 	background: url("../../assets/images//alberto1.jpg");
+	background-size:cover ;
+	width: 100%;
+	height: 100%;
+	display: $DisplayIcon;
+}
+#alberto2-photo{
+	background: url("../../assets/images//alberto2.jpg");
 	background-size:cover ;
 	width: 100%;
 	height: 100%;
 	display: $DisplayIcon;
 		
 }
+//Formacion
+
+//Licenciatura
+	.lic_info{
+		background-color: $BackgroundPageColor;
+		margin-left: 10%;
+		margin-right: 10%;
+		font-family: "Inter";
+		display: flex;
+	}
+	.lic_info div{
+		//border: 3px #ccc solid;
+		padding: 10px;
+	}
+	.princi_box2 .nombre{
+		color: rebeccapurple;
+		background-color: rosybrown;
+		margin-left: 6%;
+		margin-right: 6%;
+		margin-bottom: 2%;
+	}
+	.lic_info .princi_box1{
+		flex: 1;
+		height: auto;
+	}
+	.lic_info .princi_box2{
+		margin: auto;
+		flex:2;
+		text-align: center;
+		font-size: 30px;
+	}
+	div .listaInfo{
+		list-style:none;
+	}
+	.lic_info .princi_box3{
+		flex: 1;
+		height: auto;
+	}
+	#unam-photo{
+		background: url("../../assets/images/UNAM.png");
+		background-size: cover;
+		width: 400px;
+		height: 450px;
+		display: $DisplayIcon;
+	}
+	#fi-photo{
+		background: url("../../assets/images/fi.png");
+		background-size:cover ;
+		width: 400px;
+		height: 450px;
+		display: $DisplayIcon;
+	}
+//secu-prepa
+	.secu_info{
+		background-color: $BackgroundPageColor;
+		margin-left: 10%;
+		margin-right: 10%;
+		font-family: "Inter";
+		display: flex;
+	}
+	.secu_info div{
+		//border: 3px #ccc solid;
+		padding: 10px;
+	}
+	.princi_box2 .nombre{
+		color: rebeccapurple;
+		background-color: rosybrown;
+		margin-left: 6%;
+		margin-right: 6%;
+		margin-bottom: 2%;
+	}
+	.secu_info .princi_box1{
+		flex: 1;
+		height: auto;
+		align-content: center;
+	}
+	.secu_info .princi_box2{
+		margin: auto;
+		flex:2;
+		text-align: center;
+		font-size: 30px;
+	}
+	
+	#piaget-photo{
+		background: url("../../assets/images/piaget.png");
+		background-size: cover;
+		width: 550px;
+		height: 220px;
+		display: $DisplayIcon;
+	}
+	#fi-photo{
+		background: url("../../assets/images/fi.png");
+		background-size:cover ;
+		width: 400px;
+		height: 450px;
+		display: $DisplayIcon;
+	}
+//primaria agora
+	.prim1_info{
+		background-color: $BackgroundPageColor;
+		margin-left: 10%;
+		margin-right: 10%;
+		font-family: "Inter";
+		display: flex;
+	}
+	.prim1_info div{
+		//border: 3px #ccc solid;
+		padding: 10px;
+	}
+	.princi_box2 .nombre{
+		color: rebeccapurple;
+		background-color: rosybrown;
+		margin-left: 6%;
+		margin-right: 6%;
+		margin-bottom: 2%;
+	}
+	.prim1_info .princi_box1{
+		flex: 1;
+		order: 2;
+		height: auto;
+		align-content: center;
+	}
+	.prim1_info .princi_box2{
+		margin: auto;
+		flex:2;
+		text-align: center;
+		font-size: 30px;
+	}
+
+	#agora-photo{
+		background: url("../../assets/images/agora.png");
+		background-size: cover;
+		width: 700px;
+		height: 240px;
+		display: $DisplayIcon;
+	}
+	
+//primaria cet
+	.prim2_info{
+		background-color: $BackgroundPageColor;
+		margin-left: 10%;
+		margin-right: 10%;
+		font-family: "Inter";
+		display: flex;
+	}
+	.prim2_info div{
+		//border: 3px #ccc solid;
+		padding: 10px;
+	}
+	.princi_box2 .nombre{
+		color: rebeccapurple;
+		background-color: rosybrown;
+		margin-left: 6%;
+		margin-right: 6%;
+		margin-bottom: 2%;
+	}
+	.prim2_info .princi_box1{
+		flex: 1;
+		height: auto;
+		align-content: center;
+	}
+	.prim2_info .princi_box2{
+		margin: auto;
+		flex:2;
+		text-align: center;
+		font-size: 30px;
+	}
+
+	#cet-photo{
+		background: url("../../assets/images/cet.png");
+		background-size: cover;
+		width: 750px;
+		height: 240px;
+		display: $DisplayIcon;
+	}
 
 
 

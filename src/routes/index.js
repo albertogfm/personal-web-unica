@@ -2,7 +2,7 @@ import Header from "../public/templates/Header";
 import Footer from "../public/templates/Footer"
 import Home from "../pages/Home";
 import Error404 from "../pages/Error404";
-
+import Formacion from "../pages/Formacion";
 
 import "../public/styles/css/style.css"
 import NavCellphone from "../public/js/NavCellphone";
@@ -11,6 +11,8 @@ import getHash from "../utils/getHash";
 console.log(getHash());
 const routes = {
   "/": Home,
+  "/formacion":Formacion,
+  "/error":Error404,
 };
 
 const router = async () => {

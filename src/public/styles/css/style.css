@@ -199,7 +199,6 @@ span.insta_icon {
 }
 
 .principal_info div {
-  border: 3px #ccc solid;
   padding: 10px;
 }
 
@@ -223,11 +222,246 @@ span.insta_icon {
   font-size: 30px;
 }
 
-#alberto-photo {
+div .listaInfo {
+  list-style: none;
+}
+
+.sec_info {
+  background-color: #711f92;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: "Inter";
+  display: flex;
+}
+
+.sec_info div {
+  padding: 10px;
+}
+
+.sec_box2 .nombre {
+  color: rebeccapurple;
+  background-color: rosybrown;
+  margin-left: 6%;
+  margin-right: 6%;
+  margin-bottom: 2%;
+}
+
+.sec_box1 {
+  flex: 1;
+  height: 600px;
+  order: 2;
+}
+
+.sec_box2 {
+  margin: auto;
+  flex: 2;
+  text-align: center;
+  font-size: 30px;
+  order: 1;
+}
+
+#alberto1-photo {
   background: url("../../assets/images//alberto1.jpg");
   background-size: cover;
   width: 100%;
   height: 100%;
+  display: inline-block;
+}
+
+#alberto2-photo {
+  background: url("../../assets/images//alberto2.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+
+.lic_info {
+  background-color: #711f92;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: "Inter";
+  display: flex;
+}
+
+.lic_info div {
+  padding: 10px;
+}
+
+.princi_box2 .nombre {
+  color: rebeccapurple;
+  background-color: rosybrown;
+  margin-left: 6%;
+  margin-right: 6%;
+  margin-bottom: 2%;
+}
+
+.lic_info .princi_box1 {
+  flex: 1;
+  height: auto;
+}
+
+.lic_info .princi_box2 {
+  margin: auto;
+  flex: 2;
+  text-align: center;
+  font-size: 30px;
+}
+
+div .listaInfo {
+  list-style: none;
+}
+
+.lic_info .princi_box3 {
+  flex: 1;
+  height: auto;
+}
+
+#unam-photo {
+  background: url("../../assets/images/UNAM.png");
+  background-size: cover;
+  width: 400px;
+  height: 450px;
+  display: inline-block;
+}
+
+#fi-photo {
+  background: url("../../assets/images/fi.png");
+  background-size: cover;
+  width: 400px;
+  height: 450px;
+  display: inline-block;
+}
+
+.secu_info {
+  background-color: #711f92;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: "Inter";
+  display: flex;
+}
+
+.secu_info div {
+  padding: 10px;
+}
+
+.princi_box2 .nombre {
+  color: rebeccapurple;
+  background-color: rosybrown;
+  margin-left: 6%;
+  margin-right: 6%;
+  margin-bottom: 2%;
+}
+
+.secu_info .princi_box1 {
+  flex: 1;
+  height: auto;
+  align-content: center;
+}
+
+.secu_info .princi_box2 {
+  margin: auto;
+  flex: 2;
+  text-align: center;
+  font-size: 30px;
+}
+
+#piaget-photo {
+  background: url("../../assets/images/piaget.png");
+  background-size: cover;
+  width: 550px;
+  height: 220px;
+  display: inline-block;
+}
+
+#fi-photo {
+  background: url("../../assets/images/fi.png");
+  background-size: cover;
+  width: 400px;
+  height: 450px;
+  display: inline-block;
+}
+
+.prim1_info {
+  background-color: #711f92;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: "Inter";
+  display: flex;
+}
+
+.prim1_info div {
+  padding: 10px;
+}
+
+.princi_box2 .nombre {
+  color: rebeccapurple;
+  background-color: rosybrown;
+  margin-left: 6%;
+  margin-right: 6%;
+  margin-bottom: 2%;
+}
+
+.prim1_info .princi_box1 {
+  flex: 1;
+  order: 2;
+  height: auto;
+  align-content: center;
+}
+
+.prim1_info .princi_box2 {
+  margin: auto;
+  flex: 2;
+  text-align: center;
+  font-size: 30px;
+}
+
+#agora-photo {
+  background: url("../../assets/images/agora.png");
+  background-size: cover;
+  width: 700px;
+  height: 240px;
+  display: inline-block;
+}
+
+.prim2_info {
+  background-color: #711f92;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: "Inter";
+  display: flex;
+}
+
+.prim2_info div {
+  padding: 10px;
+}
+
+.princi_box2 .nombre {
+  color: rebeccapurple;
+  background-color: rosybrown;
+  margin-left: 6%;
+  margin-right: 6%;
+  margin-bottom: 2%;
+}
+
+.prim2_info .princi_box1 {
+  flex: 1;
+  height: auto;
+  align-content: center;
+}
+
+.prim2_info .princi_box2 {
+  margin: auto;
+  flex: 2;
+  text-align: center;
+  font-size: 30px;
+}
+
+#cet-photo {
+  background: url("../../assets/images/cet.png");
+  background-size: cover;
+  width: 750px;
+  height: 240px;
   display: inline-block;
 }
 
